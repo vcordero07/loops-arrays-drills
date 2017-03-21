@@ -10,6 +10,18 @@ function average(numbers) {
   return getAverage;
 }
 
+function average(numbers) {
+  // your code goes here
+
+  var getTotal = 0;
+  numbers.map(ele => {
+    getTotal += ele;
+  })
+  // for (var i = 0; i < numbers.length; i++) {
+  //   getTotal+= numbers[i];
+  // }
+  return getTotal/numbers.length;
+
 
 
 
